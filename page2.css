@@ -1,0 +1,118 @@
+:root {
+    /* fonts */
+    --cta-primary: Lato;
+    --font-league-spartan: "League Spartan";
+  
+    /* font sizes */
+    --font-size-base: 14px;
+    --cta-primary-size: 16px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #1c1d21;
+  
+    /* Paddings */
+    --padding-md: 16px;
+  
+    /* border radiuses */
+    --br-sm: 16px;
+    --br-md: 150px;
+  }
+  
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .are-you-sure {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--font-league-spartan);
+  }
+  .popup-child {
+    position: relative;
+    width: 187px;
+    height: 254.88px;
+    flex-shrink: 0;
+  }
+  .span {
+    font-size: 12px;
+  }
+  .your-credit-line-value-will-de1 {
+    line-height: 74.5%;
+  }
+  .your-credit-line-value-will-de {
+    margin-block-start: 0;
+    margin-block-end: 8px;
+  }
+  .new-credit-line {
+    font-weight: 500;
+  }
+  .span1 {
+    font-weight: 600;
+    font-family: var(--font-league-spartan);
+    color: #040919;
+  }
+  .new-credit-line-value-23000 {
+    margin: 0;
+    color: var(--color-gray-100);
+  }
+  .your-credit-line-container {
+    position: relative;
+    letter-spacing: 0.4px;
+    font-size: var(--font-size-base);
+    color: #8181a5;
+  }
+  .go-back {
+    position: relative;
+    line-height: 16px;
+  }
+  .confirm-wrapper,
+  .go-back-wrapper {
+    border-radius: var(--br-md);
+    background-color: #e9dcfa;
+    width: 155px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-md);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .confirm-wrapper {
+    background-color: #ef4f53;
+    width: 157px;
+    color: var(--color-white);
+  }
+  .frame-parent,
+  .popup {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: var(--cta-primary-size);
+    color: #5516aa;
+  }
+  .popup {
+    position: relative;
+    border-radius: var(--br-sm) var(--br-sm) 0 0;
+    background-color: var(--color-white);
+    box-shadow: 0-4px 24px rgba(94, 129, 244, 0.25);
+    width: 100%;
+    flex-direction: column;
+    padding: var(--padding-md);
+    box-sizing: border-box;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    font-size: 24px;
+    color: var(--color-gray-100);
+    font-family: var(--cta-primary);
+  }
+  

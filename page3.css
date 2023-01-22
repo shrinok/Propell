@@ -1,0 +1,140 @@
+:root {
+    /* fonts */
+    --cta-primary: Lato;
+    --font-league-spartan: "League Spartan";
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --font-size-base: 14px;
+    --cta-primary-size: 16px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #f6f0fe;
+    --color-gray-200: #1c1d21;
+    --color-indigo: #5516aa;
+  
+    /* Paddings */
+    --padding-sm: 16px;
+    --padding-md: 20px;
+  
+    /* border radiuses */
+    --br-md: 150px;
+  }
+  
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .cover-frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eaeaea;
+    width: 1920px;
+    height: 960px;
+  }
+  .cover-frame-item {
+    position: absolute;
+    height: 7.2%;
+    width: 22.92%;
+    top: 44.34%;
+    right: 3.36%;
+    bottom: 48.46%;
+    left: 73.72%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .travel-website {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .travel-website-wrapper {
+    position: absolute;
+    top: 827.38px;
+    left: 1173.29px;
+    width: 224px;
+    height: 40px;
+    font-size: 34px;
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  .cover-frame-inner {
+    position: absolute;
+    top: 354.25px;
+    left: 636.94px;
+    width: 7.81px;
+    height: 13.5px;
+  }
+  .back,
+  .mark-additional-funds {
+    position: absolute;
+    line-height: 16px;
+    display: inline-block;
+  }
+  .mark-additional-funds {
+    top: 419px;
+    left: 637px;
+    color: #8181a5;
+    width: 328px;
+  }
+  .back {
+    top: 355px;
+    left: 652px;
+    width: 27px;
+    height: 12px;
+  }
+  .increase-your-credit {
+    position: absolute;
+    top: 387px;
+    left: 637px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .fetch-my-kfin {
+    position: relative;
+    line-height: 16px;
+  }
+  .frame-child {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .fetch-my-cams-portfolio-parent,
+  .fetch-my-kfin-portfolio-parent {
+    position: absolute;
+    top: 471px;
+    left: 637px;
+    border-radius: var(--br-md);
+    background-color: var(--color-gray-100);
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-md);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--cta-primary-size);
+    color: var(--color-indigo);
+    font-family: var(--cta-primary);
+  }
+  .fetch-my-cams-portfolio-parent {
+    top: 547px;
+  }
+  .cover-frame {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 960px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-200);
+    font-family: var(--font-league-spartan);
+  }
+  
